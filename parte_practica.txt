@@ -1,0 +1,33 @@
+Especificaciones.
+
+1. Debes incluir los constructores señalados para cada clase.
+
+2. Los únicos valores permitidos para el atributo categoriaEmp son A, B, C y D.
+
+3. Debes incluir métodos modificadores y accesores requeridos para ambas clases.
+
+4. promoverEmpleado. El método recibe como parámetro una categoría válida. Si la categoría recibida es mayor a la que el empleado tenía, su sueldo debe incrementarse 2.5% por cada avance de categoría.
+
+Ejemplos:
+
+Si llegara un valor de categoría no válido, es decir fuera del rango A, B, C o D, el método debe mostrar un mensaje de error “Categoría inválida” y no modificar el sueldo del empleado.
+
+Si la categoría actual es A y el valor del parámetro es C, el porcentaje de incremento del sueldo sería 5 %.
+
+Si la categoría actual es C y el valor del parámetro es C, B o A, el sueldo NO se incrementa.
+
+Si la categoría actual es A y el valor del parámetro es D, el porcentaje de incremento del sueldo sería del 7.5 %.
+
+5. En tu aplicación,
+
+a. Declara dos empleados, emp1 y emp2. El empleado emp1 debe llamarse “Pepe”, ganar 10000, tener una laboral categoría ´A´ y su cumpleaños es mayo 19. El empleado emp2 debe llamarse “Rocio”, ganar 12000, tener una categoría laboral B y cumplir años el 1 de
+enero.
+
+b. Muestra en pantalla los datos completos de los dos empleados. Acomoda los datos de
+cada empleado en un mismo renglón.
+
+c. Promueve a Pepe a la categoría D.
+
+d. Muestra en pantalla nombre, categoría y sueldo de Pepe.
+
+e. Muestra en pantalla la fecha del cumpleaños de Rocio.
